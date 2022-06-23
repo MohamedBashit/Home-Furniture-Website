@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Normalize -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- Css Style -->
+    <link rel = "stylesheet" href = "css/style.css">
+    <!-- Font Awesome library-->
+    <link rel = "stylesheet" href = "css/all.min.css">
+    <!-- Font Google -->
+    <link rel = "stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&
+    family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;700&family=Tajawal:wght@300;400;500&family=Work+Sans:wght@200&display=swap">
+    <title>FHouse</title>
+</head>
+<body>
+    <!-- Start Setting Box -->
+    <div class="setting-box">
+        <h3>Setting</h3>
+        <div class="icon-setting">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+            <!-- Option Color Specific -->
+        <div class="setting-content">
+            <h4>Font Color Option</h4>
+            <ul class="ul-color">
+                <li class="active" data-color = "#F00"></li>
+                <li data-color = "#0000CD"></li>
+                <li data-color = "#008000"></li>
+                <li data-color = "#20B2AA"></li>
+            </ul>
+        </div>
+
+        <!-- Option Random Background Specific -->
+        <div class="setting-content">
+            <h4>Background Option</h4>
+        <div class="random-background">
+            <button class="yes active" data-background = "yes">Yes</button>
+            <button class="no" data-background = "no">No</button>
+        </div>
+        </div>
+
+        <div class="setting-content">
+            <h4>Bullets Option</h4>
+        <div class="bullets-option">
+            <button class="yes active" data-bullets = "show">Yes</button>
+            <button class="no" data-bullets = "hide">No</button>
+        </div>
+        </div>
+
+        <div class="setting-content">
+            <h4>ScrollNavbar Option</h4>
+        <div class="scroll-option">
+            <button class="yes active" data-scroll = "yes">Yes</button>
+            <button class="no" data-scroll = "no">No</button>
+        </div>
+        </div>
+
+        <button class="reset-option">Reset Option</button>
+    </div>
+
+    <!-- End Setting Box -->
+
+    <!-- Start Navigation Bullets -->
+
+        <div class="nav-bullets">
+            <div class="bullets" data-link = ".about">
+                <div class="tooltip">About Us</div>
+            </div>
+            <div class="bullets" data-link = ".fquality">
+                <div class="tooltip">Furniture Quality</div>
+            </div>
+            <div class="bullets" data-link = ".fgallery">
+                <div class="tooltip">Furniture Gallery</div>
+            </div>
+            <div class="bullets" data-link = ".timeline">
+                <div class="tooltip">Time Line</div>
+            </div>
+            <div class="bullets" data-link = ".features">
+                <div class="tooltip">Our Features</div>
+            </div>
+        </div>
+
+    <!-- End Navigation Bullets -->
+
+    <!-- Start Header -->
+    <div class = "header">
+        <div class="container">
+            <div class = "logo">
+                <h1>F<span>House</span></h1>
+            </div>
+            <div class="links-container">
+                <ul class = "links">
+                    <li><a href="#" class = "active" data-link = ".landing">Home</a></li>
+                    <li><a href="#" data-link = ".about">About Us</a></li>
+                    <li><a href="#" data-link = ".fquality">Furniture Quality</a></li>
+                    <li><a href="#" data-link = ".fgallery">Furniture Gallery</a></li>
+                    <li><a href="#" data-link = ".timeline">Time Line</a></li>
+                    <li><a href="#" data-link = ".features">Our Features</a></li>
+                </ul>
+                <button class = "menu-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+        </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="overflow"></div>
+        <div class="content-landing">
+            <h2>The most beautiful furniture in the <span>furniture house..</span></h2>
+            <p>The coolest and most beautiful furniture in terms of industry in the furniture house All kinds of furniture</p>
+            <button><a href = "#">Products</a></button>
+        </div>
+        
+    </div>
+    <!-- End Landing -->
+
+    <!-- Start About -->
+    <div class="about" id = "about">
+        <div class="container">
+            <div class="info-about">
+                <h2>About</h2>
+                <p>The <span>Furniture House</span> always aims to innovate in everything in the house for continuous comfort,
+                    Create inspiring, beautifully decorated rooms. Review our wide selection of stylish furniture & décor for living, dining & bedroom — and get enlightened about modern design.
+                </p>
+            </div>
+            <div class="image-about">
+                <img src = "uploads/image/photoAbout.png" title = "aboutPhoto" alt = "aboutPhoto">
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Furniture Quality -->
+    <div class="fquality">
+        <div class="head">
+            <h2>Furniture Quality</h2>
+        </div>
+        <div class = "container">
+            <div class = "fquality-box">
+            <div class = "fquality-name">The Quality</div>
+            <div class = "progress">
+                <span data-progress = "99%"></span>
+            </div>
+        </div>
+            <div class = "fquality-box">
+            <div class = "fquality-name">The Service</div>
+            <div class = "progress">
+                <span data-progress = "95%"></span>
+            </div>
+        </div>
+            <div class = "fquality-box">
+            <div class = "fquality-name">Decorations</div>
+            <div class = "progress">
+                <span data-progress = "88%"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End Furniture Quality-->
+
+    <!-- Start Gallery -->
+    <div class="fgallery">
+        <div class="head">
+            <h2>Furniture Gallery</h2>
+        </div>
+        <div class = "container">
+            <div class="fgallery-box">
+                <img src = "uploads/image/01.jpg" title = "01" alt = "01">
+                <img src = "uploads/image/02.jpg" title = "02" alt = "02">
+                <img src = "uploads/image/03.jpg" title = "03" alt = "03">
+                <img src = "uploads/image/04.jpg" title = "04" alt = "04">
+                <img src = "uploads/image/05.jpg" title = "05" alt = "05">
+                <img src = "uploads/image/06.jpg" title = "06" alt = "06">
+                <img src = "uploads/image/07.jpg" title = "07" alt = "07">
+                <img src = "uploads/image/08.jpg" title = "08" alt = "08">
+                <img src = "uploads/image/09.jpg" title = "09" alt = "09">
+                <img src = "uploads/image/10.jpg" title = "10" alt = "10">
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    
+    <!-- Start TimeLine -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="years">2020</div>
+                
+                <div class="left">
+                    <div class="content">
+                        <h3>First Appearance</h3>
+                        <p>FHouse Company, a manufacturer of high-quality, traditional-style bedroom suites, opens for business in Zeeland, Michigan.</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>In the year 2020</h3>
+                        <p>It has been upgraded under the high supervision of competitors to use all types of high quality wood in the market .</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="years">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>In the year 2021</h3>
+                        <p>The distinction of the company between companies and competitors in the market worldwide, while there are many companies whose history is from 2014 and never take a place in the global market</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>2021 Achievements</h3>
+                        <p>The company has opened 3 high-quality wood factories worldwide in three different countries, the name of the company has spread globally and this has increased the level of export worldwide, the company has appointed more than 2000 employees in all its factories and companies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End TimeLine -->
+
+    <!-- Start Our Features -->
+    <div class="features">
+        <div class="head">
+            <h2>Our Features</h2>
+        </div>
+        <div class = "container">
+            <div class="feat-box">
+                <i class="fa-solid fa-circle-check"></i>
+                <h4>The Quality</h4>
+                <p>Excellent quality in wood and raw materials, wood is made in our factories all over the world.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-brands fa-affiliatetheme"></i>
+                <h4>Types Of Wood</h4>
+                <p>Natural stone, natural stone, made of natural wood. Each type is famous for an idea in a particular type of furniture.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-brands fa-codepen"></i>
+                <h4>Furniture Material</h4>
+                <p>Wood is the most common, and perhaps the most suitable, raw material in the furniture industry.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-brands fa-affiliatetheme"></i>
+                <h4>The Quality</h4>
+                <p>Excellent quality in wood and raw materials, wood is made in our factories all over the world.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-brands fa-affiliatetheme"></i>
+                <h4>Types Of Wood</h4>
+                <p>Natural stone, natural stone, made of natural wood. Each type is famous for an idea in a particular type of furniture.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <h4>Furniture Material</h4>
+                <p>Wood is the most common, and perhaps the most suitable, raw material in the furniture industry.</p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Our Features -->
+
+    <!-- Start Contact Us -->
+    <div class="contact-us">
+        <div class="head">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <form action = "">
+                <div class="left">
+                    <input type = "text" placeholder = "Your Name" name = "username" id = "name"/>
+                    <input type = "text" placeholder = "Your Phone" name = "phone" id = "phone"/>
+                    <input type = "email" placeholder = "Your Email" name = "email" id = "email"/>
+                    <input type = "text" placeholder = "Subject" name = "subject" id = "subject"/>
+                </div>
+                <div class="right">
+                    <textarea name = "message" id = "text-message" placeholder = "Your Message"></textarea>
+                    <input type = "submit" value = "send" name ="submit" id = "sub">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact Us -->
+
+    <!-- Start Footer -->
+    <div class="footer">Created by Mohamed Hamdy in 2021</div>
+    <!-- End Footer -->
+    <!-- Script Js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
